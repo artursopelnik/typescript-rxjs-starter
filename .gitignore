@@ -1,0 +1,6 @@
+# Ignore node dir
+node_modules
+
+# Ignore files
+./index.js
+./package-lock.json

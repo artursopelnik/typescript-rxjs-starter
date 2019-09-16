@@ -1,2 +1,2 @@
-# typescript-rxjs-starter
-typescript-rxjs-starter
+# Typescript RxJS Starter
+Build RxJS with typescript.

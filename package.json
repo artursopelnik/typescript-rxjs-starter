@@ -1,0 +1,19 @@
+{
+  "name": "typescript-rxjs-starter",
+  "main": "index.js",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A starter project",
+  "repository": "https://github.com/artursopelnik/typescript-rxjs-starter",
+  "devDependencies": {
+    "typescript": "3.6.3",
+    "rxjs": "6.5.3",
+    "browserify": "16.5.0",
+    "watchify": "3.11.1",
+    "tsify": "4.0.1"
+  },
+  "scripts": {
+    "build": "browserify index.ts -p [ tsify ] > index.js",
+    "watch": "watchify index.ts -o index.js -p [ tsify ] -dv"
+  }
+}
